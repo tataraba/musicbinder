@@ -1,0 +1,28 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Mario Munoz", email = "pythonbynight@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+
+# OPTIONAL: Only if using Ruff for linting
+[tool.ruff]
+# Enable flake8-bugbear (`B`) rules.
+select = ["B", "E", "F", "Q", "W"]
+
+src = ["app", "tests"]
+line-length = 88
+target-version = "py311"
+
+# Never enforce `E501` (line length violations).
+ignore = ["E501"]
+
+# Disable autofix for unused imports
+unfixable = ["F401"]
