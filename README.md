@@ -1,4 +1,4 @@
-<p align="center" style="background: #06b6d4">
+<p align="center">
   <img src="https://raw.githubusercontent.com/tataraba/musicbinder/a6958c098fb223677e5ce0cdd5e9a2424e4a7d85/app/static/img/mb-logo.svg" alt="Music Binder" style="max-width: 100%;">
 </p>
 
