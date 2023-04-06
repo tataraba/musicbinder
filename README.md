@@ -130,7 +130,7 @@ pytest
 
 ## 🎈 Guide <a name="guide"></a>
 
-If you would like to learn how to build a site like this from the ground up, considering following the instructions over on the [Simple Site repository](https://github.com/tataraba/simplesite).
+If you would like to learn how to build a site like this from the ground up, consider following the instructions over on the [Simple Site repository](https://github.com/tataraba/simplesite).
 
 The repo includes [documentation](https://github.com/tataraba/simplesite/blob/main/docs/00_Preface.md) on how to get started from scratch, with more information on some of the libraries used in this application, including FastAPI, Jinja2, pytailwindcss, and htmx.
 
