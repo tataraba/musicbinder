@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tataraba/musicbinder/a6958c098fb223677e5ce0cdd5e9a2424e4a7d85/app/static/img/mb-logo.svg" alt="Music Binder" style="max-width: 100%;">
+  <img src="https://raw.githubusercontent.com/tataraba/musicbinder/7f112db92dca43cf2dc808a487e7425c40c436b2/app/static/img/mb-logo-two-tone.svg" alt="Music Binder" style="max-width: 100%;">
 </p>
 
-<h2 align="center">Music Binder</h2>
 <h3 align="center">Created With a Python-backed Frontend!</h3>
 
 <p align="center"> Music Binder is a demo project showcasing what you can do with a Python-backed frontend, featuring htmx and TailwindCSS.
