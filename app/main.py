@@ -11,7 +11,7 @@ settings = Settings()
 def get_app() -> FastAPI:
     """Create a FastAPI app with the specified settings."""
 
-    app = FastAPI(lifespan=lifespan, **settings.fastapi_kwargs)
+    app = FastAPI(**settings.fastapi_kwargs)
     app.mount("/static", StaticFiles(directory=settings.STATIC_DIR), name="static")
     app.include_router(router)
 

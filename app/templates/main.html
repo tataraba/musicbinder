@@ -10,12 +10,18 @@
                     of tricks up my... ahem, ahem... sleeve.
                 </p>
                 <p class="py-2">I currently have {{artist_count}} artists saved.</p>
-                <p class="py-2 text-center"><a href="/" class="py-1 px-2 rounded-md bg-cyan-800 text-slate-50 hover:bg-cyan-500">Randomize!</a></p>
+                <p class="py-2 text-center">
+                    <a hx-get="/"
+                       hx-target="#random-image"
+                       class="py-1 px-2 rounded-md bg-cyan-800 text-slate-50 hover:bg-cyan-500 hover:cursor-pointer">Randomize!</a>
+                </p>
             </div>
-            <div class="flex flex-col justify-center content-center text-center">
+            {% block main_image %}
+            <div id="random-image" class="flex flex-col justify-center content-center text-center">
                 <img src="{{random_artist['cover_image']}}" />
                 <span class="py-4 uppercase font-bold">{{random_artist["name"]}}</span>
             </div>
+            {% endblock %}
         </div>
     </section>
 {% endblock %}

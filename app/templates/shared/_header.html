@@ -3,7 +3,7 @@
         <nav class="flex flex-row self-start w-full h-24 py-2 justify-around items-end border-b border-b-slate-900">
             <div id="links" class="flex flex-row items-center uppercase">
                 <a class="px-3 py-1 mx-2 border-b-2 border-b-zinc-400 hover:text-white hover:border-b-2 hover:border-b-cyan-700 transition-all ease-in-out" href="/">Home</a>
-                <a class="px-3 py-1 mx-2 border-b-2 border-b-zinc-400 hover:text-white hover:border-b-2 hover:border-b-cyan-700 transition-all ease-in-out" href="/about">About</a>
+                <a class="px-3 py-1 mx-2 border-b-2 border-b-zinc-400 hover:text-white hover:border-b-2 hover:border-b-cyan-700 transition-all ease-in-out" hx-get="/about" hx-target="#body" hx-swap="outerHTML" hx-replace-url="/about">About</a>
                 <a class="px-3 py-1 mx-2 border-b-2 border-b-zinc-400 hover:text-white hover:border-b-2 hover:border-b-cyan-700 transition-all ease-in-out" href="/catalog">Catalog</a>
             </div>
             <div id="search" class="relative" hx-get="/search" hx-target="#content" hx-push-url="true">

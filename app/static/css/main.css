@@ -936,6 +936,10 @@ video {
   padding-top: 0px;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }

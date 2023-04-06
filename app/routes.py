@@ -22,17 +22,32 @@ def index(request: Request):
 
     TODO: Create an htmx request from the `Randomize` button that only
     refreshes the image and name of the random artist.
+
+    SOLUTION:
+        1.  Instead of `<a href="/">`, use `<a hx-get="/">`
+        2.  Use hx-target to point to the `<div>` element that contains
+        the image. (hint: give the element an `id` to target)
+        3.  Use Jinja2Blocks to render only the fragment that you need. Enclose
+        the fragment with {% block ... %} with appropriate name
+        4.  In the route, check for an HX-Request header. If present,
+        provide the block_name to render (defined in step 3).
+        5.  Update the TemplateResponse to include the block_name.
     """
 
     db = CRUD().with_table("artist_info")
 
+    block_name = None
     context = {
         "request": request,
         "artist_count": len(db.all_items()),
         "random_artist": db.get_random_item(),
     }
 
-    return templates.TemplateResponse("main.html", context)
+    if request.headers.get("HX-Request"):
+        print(request.headers)
+        block_name = "main_image"
+
+    return templates.TemplateResponse("main.html", context, block_name=block_name)
 
 
 @router.get("/about")
@@ -43,8 +58,10 @@ def about(request: Request):
     #body element of the page. Hint: Use Jinja2Blocks to render a fragment.
     Also cover the case where a user navigates directly to `/about`.
     """
-
-    return templates.TemplateResponse("about.html", {"request": request})
+    block_name = None
+    if request.headers.get("HX-Request"):
+        block_name = "content"
+    return templates.TemplateResponse("about.html", {"request": request}, block_name=block_name)
 
 
 @router.get("/catalog")
