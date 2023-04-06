@@ -1,5 +1,7 @@
 <p align="center">
+  <a href="https://github.com/tataraba/musicbinder" rel="nofollow">
   <img src="https://raw.githubusercontent.com/tataraba/musicbinder/7f112db92dca43cf2dc808a487e7425c40c436b2/app/static/img/mb-logo-two-tone.svg" alt="Music Binder" style="max-width: 100%;">
+  </a>
 </p>
 
 <h3 align="center">Created With a Python-backed Frontend!</h3>
@@ -54,9 +56,16 @@ tinydb
 
 There are two methods to get started. The first and recommended method is using Codespaces. The second, more traditional route is to clone/copy the repo and install locally.
 
+First, look for this button above:
+
+![help](https://raw.githubusercontent.com/tataraba/musicbinder/main/app/static/img/gh/use-this-template.png)
+
 #### Codespaces:
 
-Press the `<> Code` button above and select `Create a Codespace on main`. This will open a new window in your browser, where you can run the code in a virtual environment.
+Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a virtual environment.
+
+> **Tip**
+> The first time you set up the Codespace, it may take a couple of minutes. But this only happens the first time.
 
 #### Locally
 
@@ -103,6 +112,9 @@ As a recap... To get started, use ONE of the methods listed below:
 | ... | Activate virtual environment
 | ... | Install from requirements.txt
 | ... | Run `tailwindcss init`
+
+> **Tip**
+> If you use VSCode, you can transfer the browser session of Codespaces to your Desktop application, which allows you to use your own extensions and settings.
 
 ## 🔧 Run pytest <a name = "run_pytest">
 
