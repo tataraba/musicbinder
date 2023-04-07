@@ -44,7 +44,6 @@ def index(request: Request):
     }
 
     if request.headers.get("HX-Request"):
-        print(request.headers)
         block_name = "main_image"
 
     return templates.TemplateResponse("main.html", context, block_name=block_name)
@@ -116,7 +115,6 @@ def catalog(request: Request):
             context["artist"] = artist[0]
             block_name = "artist_profile"
         else:
-            print(request.headers)
             id = request.headers.get("artist-id")
             artist = db.find("id", int(id))
             context["artist"] = artist[0]
@@ -157,7 +155,6 @@ def search_post(request: Request, search: Annotated[str, Form()]):
     TODO: When user erases search field, receiving a 422 response. Would rather it be the
     same as the GET request, which populates a list of all artists as default."""
 
-    print(type(search))
     db = CRUD().with_table("artist_details")
     artists = db.search(key="name", value=search)
 
