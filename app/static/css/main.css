@@ -854,6 +854,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-livvic {
+  font-family: Livvic, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -933,6 +937,76 @@ video {
 }
 
 /* You can also create custom styles */
+
+@font-face {
+  font-family: 'Livvic';
+
+  src: url(../fonts/livvic/Livvic-ExtraLight.tff) format('truetype');
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  text-rendering: optimizeLegibility;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+
+  src: url(../fonts/livvic/Livvic-Thin.tff) format('truetype');
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  text-rendering: optimizeLegibility;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+
+  src: url(../fonts/livvic/Livvic-Regular.tff) format('truetype');
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+
+  src: url(../fonts/livvic/Livvic-Italic.tff) format('truetype');
+
+  font-style: italic;
+
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+
+  src: url(../fonts/livvic/Livvic-Bold.tff) format('truetype');
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  text-rendering: optimizeLegibility;
+
+  font-display: swap;
+}
 
 .music-binder-button {
   padding: .25rem 0.5rem;

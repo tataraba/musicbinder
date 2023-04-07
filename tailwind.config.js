@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./app/templates/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'livvic': ['Livvic', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
