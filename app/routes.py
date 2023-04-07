@@ -66,7 +66,7 @@ def about(request: Request):
     4.  Add the `/about` endpoint to the url.
     5.  In the route, check for an HX-Request header. If present,
         provide the block_name to render.
-
+    6.  Update the TemplateResponse to include the block_name
     """
     block_name = None
     if request.headers.get("HX-Request"):
