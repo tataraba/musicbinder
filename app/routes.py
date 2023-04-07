@@ -117,7 +117,7 @@ def catalog(request: Request):
             block_name = "artist_profile"
         else:
             print(request.headers)
-            id = request.headers.get("artist_id")
+            id = request.headers.get("artist-id")
             artist = db.find("id", int(id))
             context["artist"] = artist[0]
             block_name = "artist_name"
