@@ -16,9 +16,8 @@
             <h2 class="text-2xl pb-8 leading-relaxed text-slate-800 uppercase">Search Results</h2>
             {% endif %}
 
-            {% block artist_card %}
+            {% block artist_cards %}
             <div id="search-results" class="flex flex-rown gap-2 flex-wrap justify-center content-center text-center w-full">
-
                 {% if artists %}
                 {% for artist in artists %}
                 <div id="{{artist['id']}}" class="flex flex-col bg-slate-200 hover:bg-teal-100 transition-colors ease-in-out rounded-lg content-center text-center basis-1/4 w-full h-72"

@@ -82,11 +82,22 @@ def catalog(request: Request):
     the card.
 
     TODO: Make the artist card "toggable" (clicking returns to artist/members)
+
+    SOLUTION:
+    1.  Created two blocks in `profile.html` for each card state and used unique
+    {% block ... %} tags for each div element.
+    2.  In the artist profile block, send the artist id back to the route so that
+    the db query can fetch the artist name/members again. (hint: you can use htmx
+    to send a custom header to the client)
+    3.  Add logic in the route to handle each type of card state. (hint: use the `<div>` id
+    css selector)
+    4.  Update the TemplateResponse to include the corresponding block_name.
     """
 
     db = CRUD().with_table("artist_details")
     artists = db.all_items()
 
+    block_name = None
     template = "catalog.html"
     context = {
         "request": request,
@@ -97,12 +108,21 @@ def catalog(request: Request):
     }
 
     if request.headers.get("HX-Request"):
-        id = request.headers.get("HX-Trigger")
-        artist = db.find("id", int(id))
         template = "artist/profile.html"
-        context["artist"] = artist[0]
 
-    return templates.TemplateResponse(template, context)
+        if "toggle" not in request.headers.get("HX-Trigger"):
+            id = request.headers.get("HX-Trigger")
+            artist = db.find("id", int(id))
+            context["artist"] = artist[0]
+            block_name = "artist_profile"
+        else:
+            print(request.headers)
+            id = request.headers.get("artist_id")
+            artist = db.find("id", int(id))
+            context["artist"] = artist[0]
+            block_name = "artist_name"
+
+    return templates.TemplateResponse(template, context, block_name=block_name)
 
 
 @router.get("/search")
@@ -151,6 +171,6 @@ def search_post(request: Request, search: Annotated[str, Form()]):
     block_name = None
 
     if request.headers.get("hx-request"):
-        block_name = "artist_card"
+        block_name = "artist_cards"
 
     return templates.TemplateResponse("catalog.html", context, block_name=block_name)
