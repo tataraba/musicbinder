@@ -57,6 +57,16 @@ def about(request: Request):
     TODO: Create an `hx-get` request on the 'About' link that replaces the
     #body element of the page. Hint: Use Jinja2Blocks to render a fragment.
     Also cover the case where a user navigates directly to `/about`.
+
+    SOLUTION:
+    1.  Instead of `<a href="/about">`, use `<a hx-get="/about">`
+    2.  Use hx-target to point to the `<div>` element that contains the
+    main content of the site.
+    3.  Make sure that you "swap" the entire element
+    4.  Add the `/about` endpoint to the url.
+    5.  In the route, check for an HX-Request header. If present,
+        provide the block_name to render.
+
     """
     block_name = None
     if request.headers.get("HX-Request"):
