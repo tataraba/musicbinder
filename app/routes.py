@@ -6,9 +6,11 @@ from jinja2_fragments.fastapi import Jinja2Blocks
 from app.config import Settings
 from app.crud import CRUD
 from app.helpers import (
+    artist_image_list,
     get_active_members,
     get_profile,
     get_website,
+    get_wikipedia_entry,
 )
 
 settings = Settings()
@@ -171,3 +173,30 @@ def search_post(request: Request, search: Annotated[str, Form()]):
         block_name = "artist_cards"
 
     return templates.TemplateResponse("catalog.html", context, block_name=block_name)
+
+
+@router.get("/detail")
+def artist_details(request: Request, doc_id: int | None = None):
+    print(request.headers.keys)
+    db = CRUD().with_table("artist_details")
+    block_name = None
+
+    if not request.headers.get("HX-Request"):
+        doc_id = 1
+    else:
+        block_name = "details"
+
+    artist = db.get_by_id(doc_id)
+    next_id = doc_id + 1
+
+    context = {
+        "request": request,
+        "artist": artist,
+        "images": artist_image_list,
+        "get_website": get_website,
+        "get_profile": get_profile,
+        "get_wiki": get_wikipedia_entry,
+        "next_id": next_id,
+    }
+
+    return templates.TemplateResponse("artist/details.html", context, block_name=block_name)

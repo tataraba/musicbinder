@@ -1,0 +1,28 @@
+{% extends "/shared/_base.html" %}
+
+{% block content %}
+    <section id="body" class="flex flex-col bg-slate-50 justify-center items-center max-w-screen-lg m-auto">
+        <div class="h-full">
+
+            {% block details %}
+            <div class="flex flex-col justify-center items-center py-8 odd:bg-slate-200 even:bg-slate-100"
+                 hx-get="/detail/?doc_id={{next_id}}"
+                 hx-trigger="revealed"
+                 hx-swap="afterend"
+                 hx-push-url="true">
+                <div class="basis-1">
+                    <img src="{{images(artist)[0]}}"
+                        class="rounded-lg bg-cover bg-center h-full"
+                        alt="{{artist['name']}}"
+                        >
+                </div>
+                <h4 class="text-2xl py-6 font-bold text-center"><a href="{{get_website(artist)}}" class="text-cyan-900 hover:text-cyan-500">{{artist['name']}}</a></h4>
+                <p class="mx-36 p-6 max-h-32 text-sm bg-slate-100 rounded-xl text-slate-500 overflow-y-auto overflow-x-clip">{{get_profile(artist)|safe}}</p>
+                {% if get_wiki(artist) %}
+                <a href="{{get_wiki(artist)}}" class="px-4 py-2 text-cyan-700 hover:text-cyan-500">More on Wikipedia</a>
+                {% endif %}
+            </div>
+            {% endblock %}
+        </div>
+    </section>
+{% endblock %}

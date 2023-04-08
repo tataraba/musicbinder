@@ -79,6 +79,11 @@ class CRUD:
         num = randint(1, len(self.table))
         return self.table.get(doc_id=num)
 
+    def get_by_id(self, id: int):
+        if not self.table:
+            return self.db.get(doc_id=id)
+        return self.table.get(doc_id=id)
+
     @property
     def init_db(self):
         path = str(settings.DATA_DIR / self.db_name)

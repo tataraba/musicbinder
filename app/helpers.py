@@ -54,9 +54,12 @@ def get_website(artist: dict):
 
 
 def get_wikipedia_entry(artist: dict):
-    artist_urls = get_website(artist)
-    wiki_url = [x for x in artist_urls if "wikipedia" in x][0]
-    return wiki_url
+    if "urls" not in artist:
+        return "No wikipedia entry found"
+    wiki_url = [x for x in artist["urls"] if "wikipedia" in x]
+    if not wiki_url:
+        return "No wikipedia entry found"
+    return wiki_url[0]
 
 
 def get_profile(artist: dict):
@@ -66,3 +69,11 @@ def get_profile(artist: dict):
         profile = artist["profile"]
         profile = profile.replace("[", "<").replace("]", ">")
         return profile
+
+def artist_image_list(artist: dict):
+    if "images" not in artist:
+        return "No images available"
+    else:
+        image_dict = artist["images"]
+        images = [item["resource_url"] for item in image_dict]
+        return images
