@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Livvic';
-    src: url(../fonts/livvic/Livvic-ExtraLight.tff) format('truetype');
+    src: url(../fonts/livvic/Livvic-ExtraLight.ttf) format('truetype');
     font-style: normal;
     font-weight: 100;
     text-rendering: optimizeLegibility;
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'Livvic';
-    src: url(../fonts/livvic/Livvic-Thin.tff) format('truetype');
+    src: url(../fonts/livvic/Livvic-Thin.ttf) format('truetype');
     font-style: normal;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Livvic';
-    src: url(../fonts/livvic/Livvic-Regular.tff) format('truetype');
+    src: url(../fonts/livvic/Livvic-Regular.ttf) format('truetype');
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility;
@@ -33,7 +33,7 @@
 
 @font-face {
     font-family: 'Livvic';
-    src: url(../fonts/livvic/Livvic-Italic.tff) format('truetype');
+    src: url(../fonts/livvic/Livvic-Italic.ttf) format('truetype');
     font-style: italic;
     font-weight: 400;
     text-rendering: optimizeLegibility;
@@ -42,7 +42,7 @@
 
 @font-face {
     font-family: 'Livvic';
-    src: url(../fonts/livvic/Livvic-Bold.tff) format('truetype');
+    src: url(../fonts/livvic/Livvic-Bold.ttf) format('truetype');
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility;
