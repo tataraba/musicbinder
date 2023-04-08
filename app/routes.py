@@ -195,6 +195,7 @@ def artist_details(request: Request, doc_id: int | None = None):
         "images": artist_image_list,
         "get_website": get_website,
         "get_profile": get_profile,
+        "get_members": get_active_members,
         "get_wiki": get_wikipedia_entry,
         "next_id": next_id,
     }
