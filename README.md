@@ -21,6 +21,7 @@
     - [Locally](#locally)
 - [🔧 Run pytest ](#-run-pytest-)
 - [🎈 Guide ](#-guide-)
+- [💪 Advanced ](#-advanced-)
 - [⛏️ Built Using ](#️-built-using-)
 - [✍️ Author ](#️-author-)
 - [🎉 Acknowledgements ](#-acknowledgements-)
@@ -33,7 +34,8 @@ You can build a beautiful web application using nothing more than Python, htmx, 
 
 This repository was prepared for a PyCon tutorial on how to create a python-backed frontend, featuring Jinja templates for HTML rendering, TailwindCSS for style, and htmx for pizzazz! 😎
 
-The tutorial is scheduled for Wednesday - April 19th, 2023 9 - 12:30 pm (Mountain Time).
+The [tutorial](https://us.pycon.org/2023/schedule/presentation/151/) is scheduled for Wednesday, April 19th, 2023 from 9 - 12:30pm (Mountain Time).
+
 
 ### Prerequisites
 
@@ -64,15 +66,17 @@ First, look for this button above:
 
 Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a virtual environment.
 
-> **Tip**
-> The first time you set up the Codespace, it may take a couple of minutes. But this only happens the first time.
+The first time you open the Codespace, the build might take a couple of minutes, but this only happens the first time.
+
+> **Note**
+> You can alternatively start up a Codespace by clicking on the `Code <>` button next to the `Use this template` button. This gives you access to git history, and you can also switch to the branch showcasing some advanced features.
 
 #### Locally
 
 Create a copy of the repo using the `Use this template` button above. Select `Create a new repository`.
 
-> **Warning**
-> Be sure to select **`Include all branches`** when cloning the repo.
+> **Note**
+> You may want to **`Include all branches`** when cloning the repo to view some advanced features.
 
 After cloning or using this template, you will need to create a virtual environment. Navigate to the location where you have cloned the project (your project root) and run the following command in your terminal:
 
@@ -113,7 +117,7 @@ As a recap... To get started, use ONE of the methods listed below:
 | ... | Install from requirements.txt
 | ... | Run `tailwindcss init`
 
-> **Tip**
+> **Tip:**
 > If you use VSCode, you can transfer the browser session of Codespaces to your Desktop application, which allows you to use your own extensions and settings.
 
 ## 🔧 Run pytest <a name = "run_pytest">
@@ -134,14 +138,17 @@ If you would like to learn how to build a site like this from the ground up, con
 
 The repo includes [documentation](https://github.com/tataraba/simplesite/blob/main/docs/00_Preface.md) on how to get started from scratch, with more information on some of the libraries used in this application, including FastAPI, Jinja2, pytailwindcss, and htmx.
 
+## 💪 Advanced <a name="advanced"></a>
+
+The `advanced-features` branch showcases a few features of TailwindCSS and htmx. If you're learning how to use either of the tools, try to tackle them yourself before looking at the branch for solutions. Some of this will be covered in the workshop.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- FastAPI
-- Jinja2
-- TailwindCSS
-- TinyDB
-- htmx
+- [FastAPI](https://fastapi.tiangolo.com)
+- [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [TinyDB](https://tinydb.readthedocs.io/en/latest/)
+- [htmx](https://htmx.org)
 
 ## ✍️ Author <a name = "author"></a>
 
