@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* You can also create custom styles */
 
 @font-face {
@@ -49,6 +50,17 @@
     font-display: swap;
 }
 
+/* You can extract repeated patterns from tailwind components
+to create your own custom CSS classes */
+
+@layer components {
+    mb-button {
+        @apply py-1 px-2 rounded-md bg-cyan-800 text-slate-50 hover:bg-cyan-500;
+    }
+}
+
+/* Or, if you must, you can add custom CSS styles.
+This does the same thing as the code above. */
 
 .music-binder-button {
     padding: .25rem 0.5rem;
@@ -61,3 +73,4 @@
     background-color: rgb(6 182 212 / 1);
     cursor: pointer;
 }
+
