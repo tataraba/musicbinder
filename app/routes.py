@@ -177,7 +177,11 @@ def search_post(request: Request, search: Annotated[str, Form()]):
 
 @router.get("/detail")
 def artist_details(request: Request, doc_id: int | None = None):
-    print(request.headers.keys)
+    """ Artist details page - Each section contains artist information, including
+    images, profile, website, and wikipedia link (if available). The page is set up
+    with "infinite scroll" using the htmx `revealed` trigger to send requests.
+    """
+
     db = CRUD().with_table("artist_details")
     block_name = None
 
