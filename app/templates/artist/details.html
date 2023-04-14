@@ -17,12 +17,12 @@
                         >
                 </div>
                 <h4 class="text-2xl py-6 font-bold text-center"><a href="{{get_website(artist)}}" class="text-cyan-900 hover:text-cyan-500">{{artist['name']}}</a></h4>
-                <p class="text-slate-900 pb-6"><span class="text-sm uppercase">Active Members:</span>
+                <p class="text-slate-900 pb-6 py-6"><span class="text-sm uppercase">Active Members:</span>
                     {% for member in get_members(artist) %}
                     <span class="px-1 text-sm text-slate-600">{{member}}</span>
                     {% endfor %}
                 </p>
-                <p class="mx-36 p-6 max-h-32 text-sm bg-slate-100 rounded-xl text-slate-500 overflow-y-auto overflow-x-clip">{{get_profile(artist)|safe}}</p>
+                <p class="mx-36 p-6 max-h-32 text-sm bg-slate-50 rounded-l-2xl text-slate-500 border border-slate-300 overflow-y-auto overflow-x-clip">{{get_profile(artist)|safe}}</p>
                 {% if get_wiki(artist) %}
                 <a href="{{get_wiki(artist)}}" class="px-4 py-2 text-cyan-700 hover:text-cyan-500">More on Wikipedia</a>
                 {% endif %}

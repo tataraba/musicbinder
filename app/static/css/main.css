@@ -516,6 +516,23 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+mb-button {
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 94 117 / var(--tw-bg-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+mb-button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity));
+}
+
 .absolute {
   position: absolute;
 }
@@ -704,6 +721,16 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-l-xl {
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-l-2xl {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -716,6 +743,20 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-r-8 {
+  border-right-width: 8px;
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-slate-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
 .border-b-slate-900 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(15 23 42 / var(--tw-border-opacity));
@@ -724,6 +765,26 @@ video {
 .border-b-zinc-400 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(161 161 170 / var(--tw-border-opacity));
+}
+
+.border-r-cyan-500 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(6 182 212 / var(--tw-border-opacity));
+}
+
+.border-r-cyan-300 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(103 232 249 / var(--tw-border-opacity));
+}
+
+.border-r-cyan-50 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(236 254 255 / var(--tw-border-opacity));
+}
+
+.border-r-cyan-100 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(207 250 254 / var(--tw-border-opacity));
 }
 
 .bg-cyan-500 {
@@ -865,6 +926,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -883,10 +948,6 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -1061,6 +1122,12 @@ video {
   font-display: swap;
 }
 
+/* You can extract repeated patterns from tailwind components
+to create your own custom CSS classes */
+
+/* Or, if you must, you can add custom CSS styles.
+This does the same thing as the code above. */
+
 .music-binder-button {
   padding: .25rem 0.5rem;
   border-radius: 0.375rem;
@@ -1078,9 +1145,19 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.odd\:bg-slate-100:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .even\:bg-slate-100:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.even\:bg-slate-300:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .first-of-type\:pt-0:first-of-type {
@@ -1098,6 +1175,11 @@ video {
 .hover\:border-b-cyan-700:hover {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(14 116 144 / var(--tw-border-opacity));
+}
+
+.hover\:border-r-slate-50:hover {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(248 250 252 / var(--tw-border-opacity));
 }
 
 .hover\:bg-cyan-500:hover {
@@ -1148,3 +1230,4 @@ video {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
+

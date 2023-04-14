@@ -58,7 +58,7 @@ def get_wikipedia_entry(artist: dict):
         return "No wikipedia entry found"
     wiki_url = [x for x in artist["urls"] if "wikipedia" in x]
     if not wiki_url:
-        return "No wikipedia entry found"
+        return None
     return wiki_url[0]
 
 
