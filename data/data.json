@@ -2267,7 +2267,7 @@
                 "http://www.youtube.com/user/m83"
             ]
         },
-        "29": {
+        "62": {
             "data_quality": "Needs Vote",
             "id": 187919,
             "images": [
@@ -3048,7 +3048,7 @@
                 "https://en.wikipedia.org/wiki/The_Mountain_Goats"
             ]
         },
-        "62": {
+        "29": {
             "data_quality": "Correct",
             "id": 999999,
             "images": [
@@ -3081,7 +3081,7 @@
                     "resource_url": "https://www.pythonbynight.com"
                 }
             ],
-            "profile": "Remember Your Dead started as an impromptu collaboration of scratch recordings between Mario Munoz and Richard Sanchez when both living in or around Silver Spring, Maryland. After both relocating to the West Coast (Mario - Southern California / Richard - Seattle, Washington), they collaborated once more and released their Vigilia EP in 2012. Since then, they both fiddle with Python from time to time. Mario occasionally presents talks and tutorials at several Python-related conventions.",
+            "profile": "Remember Your Dead started as an impromptu collaboration of scratch recordings between Mario Munoz and Richard Sanchez when both living in or around Silver Spring, Maryland. After both relocating to the West Coast (Mario - Southern California / Richard - Seattle, Washington), they collaborated once more and released their Vigilia EP in 2012. Since then, they both fiddle with Python from time to time. Mario occasionally presents talks and tutorials at several Python-related events.",
             "releases_url": "https://api.discogs.com/artists/99999999/releases",
             "resource_url": "https://api.discogs.com/artists/99999999",
             "uri": "https://open.spotify.com/album/5CS76j84rAUwNFSuAr3yPf?si=M290i1VaRCeDPvBZp317hA",
@@ -8601,6 +8601,22 @@
             "title": "Jos\u00c3\u00a9 Gonz\u00c3\u00a1lez",
             "type": "artist",
             "uri": "/artist/190821-Jos\u00c3\u00a9-Gonz\u00c3\u00a1lez",
+            "user_data": {
+                "in_collection": false,
+                "in_wantlist": false
+            }
+        },
+        "62": {
+            "cover_image": "/static/img/RYD.jpg",
+            "id": 999999,
+            "master_id": null,
+            "master_url": null,
+            "name": "Remember Your Dead",
+            "resource_url": "https://open.spotify.com/album/5CS76j84rAUwNFSuAr3yPf?si=J6ED5VnxQaqJ0vDN33Rc3Q",
+            "thumb": "/static/img/RYD.jpg",
+            "title": "Remember Your Dead",
+            "type": "artist",
+            "uri": "/artist/999999-Remember-Your-Dead",
             "user_data": {
                 "in_collection": false,
                 "in_wantlist": false
