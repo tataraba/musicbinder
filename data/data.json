@@ -3048,6 +3048,48 @@
                 "https://en.wikipedia.org/wiki/The_Mountain_Goats"
             ]
         },
+        "62": {
+            "data_quality": "Correct",
+            "id": 999999,
+            "images": [
+                {
+                    "height": 800,
+                    "resource_url": "/static/img/RYD.jpg",
+                    "type": "primary",
+                    "uri": "/static/img/RYD.jpg",
+                    "uri150": "/static/img/RYD.jpg",
+                    "width": 600
+                }
+            ],
+            "name": "Remember Your Dead",
+            "namevariations": [
+                "RememberYourDead",
+                "RYD",
+                "Remember, You're Dead"
+            ],
+            "members": [
+                {
+                    "active": true,
+                    "id": 9999999,
+                    "name": "Mario Munoz",
+                    "resource_url": "https://www.pythonbynight.com"
+                },
+                {
+                    "active": true,
+                    "id": 9999999,
+                    "name": "Richard Sanchez",
+                    "resource_url": "https://www.pythonbynight.com"
+                }
+            ],
+            "profile": "Remember Your Dead started as an impromptu collaboration of scratch recordings between Mario Munoz and Richard Sanchez when both living in or around Silver Spring, Maryland. After both relocating to the West Coast (Mario - Southern California / Richard - Seattle, Washington), they collaborated once more and released their Vigilia EP in 2012. Since then, they both fiddle with Python from time to time. Mario occasionally presents talks and tutorials at several Python-related conventions.",
+            "releases_url": "https://api.discogs.com/artists/99999999/releases",
+            "resource_url": "https://api.discogs.com/artists/99999999",
+            "uri": "https://open.spotify.com/album/5CS76j84rAUwNFSuAr3yPf?si=M290i1VaRCeDPvBZp317hA",
+            "urls": [
+                "https://open.spotify.com/artist/19vwyTuRRWBWEMUAiNwRrS?si=iOrPzo8qSdWQzQmFhgCmVg",
+                "https://en.wikipedia.org/wiki/Elephant"
+            ]
+        },
         "32": {
             "data_quality": "Needs Vote",
             "id": 502785,
