@@ -97,20 +97,3 @@ class CRUD:
         _table = _db.table(table_name)
         return cls(db=_db, table=_table)
 
-
-class Artist(CRUD):
-    def __init__(self, table_name: str | None = None):
-        self.table_name = table_name
-
-    def get_members(artist: dict):
-        """This returns active members from the artist_details table. This
-        method can be used within the Jinja template."""
-
-        if "members" not in artist:
-            return [artist["name"]]
-        all_members = artist["members"]
-        active_members = []
-        for member in all_members:
-            if member["active"]:
-                active_members.append(member["name"])
-        return active_members  # limit 14 members
