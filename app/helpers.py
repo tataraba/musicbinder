@@ -48,12 +48,19 @@ def get_active_members(artist: dict):
 
 
 def get_website(artist: dict):
+    """This returns the website from the artist_details table. It checks
+    for urls added to discogs table. If none found, it sends url of the
+    discogs profile."""
+
     if "urls" not in artist:
         return artist["uri"]  # send discogs uri if no url found
     return artist["urls"][0]
 
 
 def get_wikipedia_entry(artist: dict):
+    """Checks to see if there is a wikipedia entry for the artist and
+    returns it. If not, it returns None."""
+
     if "urls" not in artist:
         return "No wikipedia entry found"
     wiki_url = [x for x in artist["urls"] if "wikipedia" in x]
@@ -63,6 +70,9 @@ def get_wikipedia_entry(artist: dict):
 
 
 def get_profile(artist: dict):
+    """This returns the profile from the artist_details table. It also
+    replaces square brackets with html entities."""
+
     if not artist["profile"]:
         return "No profile available"
     else:
@@ -71,6 +81,8 @@ def get_profile(artist: dict):
         return profile
 
 def artist_image_list(artist: dict):
+    """Returns a list of all images available for the artist."""
+
     if "images" not in artist:
         return "No images available"
     else:
