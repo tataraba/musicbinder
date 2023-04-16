@@ -110,7 +110,7 @@ def search_post(request: Request, search: Annotated[str, Form()]):
     TODO: When user erases search field, receiving a 422 response. Would rather it be the
     same as the GET request, which populates a list of all artists as default."""
 
-    print(type(search))
+    print(search)
     db = CRUD().with_table("artist_details")
     artists = db.search(key="name", value=search)
 
