@@ -64,7 +64,7 @@ Either way, make sure you are in the `main` branch and locate this button above:
 
 #### Codespaces:
 
-Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a virtual environment.
+Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a dedicated, containerized environment in the cloud. (If you don't know what that means, don't worry! It just means that you can run this codebase without having to install anything on your computer, all through your browser!)
 
 The first time you open the Codespace, the build might take a couple of minutes, but this only happens the first time.
 
