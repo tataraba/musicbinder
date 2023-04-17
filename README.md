@@ -72,7 +72,7 @@ Press the `Use this template` button above and select `Open in a codespace`. Thi
 The first time you open the Codespace, the build might take a couple of minutes, but this only happens the first time.
 
 > **Note**
-> You can alternatively start up a Codespace by clicking on the `<> Code` button next to the `Use this template` button. This gives you access to git history, and you can also switch to the branch showcasing some advanced features.
+> You can alternatively start up a Codespace by clicking on the `<> Code` button next to the `Use this template` button. This gives you access to git history, as well as giving you the option to copy all branches to your Codespace.
 
 #### Locally
 
