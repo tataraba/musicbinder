@@ -28,7 +28,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-You can build a beautiful web application using nothing more than Python, htmx, and TailwindCSS. Create dynamic pages using the power of Jinja templates and server-side rendering to create a HyperText driven application.
+You can build a beautiful web application using nothing more than Python, htmx, and TailwindCSS. Create dynamic pages using the power of Jinja templates and server-side rendering to create a Hypertext driven application.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
