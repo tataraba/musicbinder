@@ -58,7 +58,7 @@ tinydb
 
 There are two methods to get started. The first and recommended method is using Codespaces. The second, more traditional route is to clone/copy the repo and install locally.
 
-First, look for this button above:
+Either way, make sure you are in the `main` branch and locate this button above:
 
 ![help](https://raw.githubusercontent.com/tataraba/musicbinder/main/app/static/img/gh/use-this-template.png)
 
