@@ -123,7 +123,7 @@ As a recap... To get started, use ONE of the methods listed below:
 > **Tip:**
 > If you use VSCode, you can transfer the browser session of Codespaces to your Desktop application, which allows you to use your own extensions and settings.
 
-## 🔧 Run pytest <a name = "run_pytest">
+## 🔧 Run pytest <a name = "run_pytest"></a>
 
 After activating your virtual environment, you can run tests by typing `pytest` on the command line. This makes sure that your application is able to generate the index page.
 
