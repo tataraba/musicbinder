@@ -5,6 +5,7 @@
         <div class="h-full">
 
             {% block details %}
+            {% if artist %}
             <div class="flex flex-col justify-center items-center py-8 odd:bg-slate-200 even:bg-slate-100"
                  hx-get="/detail/?doc_id={{next_id}}"
                  hx-trigger="revealed"
@@ -17,7 +18,7 @@
                         >
                 </div>
                 <h4 class="text-2xl py-6 font-bold text-center"><a href="{{get_website(artist)}}" class="text-cyan-900 hover:text-cyan-500">{{artist['name']}}</a></h4>
-                <p class="text-slate-900 pb-6 py-6"><span class="text-sm uppercase">Active Members:</span>
+                <p class="text-slate-900 py-6 px-12"><span class="text-sm uppercase">Active Members:</span>
                     {% for member in get_members(artist) %}
                     <span class="px-1 text-sm text-slate-600">{{member}}</span>
                     {% endfor %}
@@ -27,6 +28,7 @@
                 <a href="{{get_wiki(artist)}}" class="px-4 py-2 text-cyan-700 hover:text-cyan-500">More on Wikipedia</a>
                 {% endif %}
             </div>
+            {% endif %}
             {% endblock %}
         </div>
     </section>

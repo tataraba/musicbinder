@@ -80,9 +80,10 @@ def get_profile(artist: dict):
         profile = profile.replace("[", "<").replace("]", ">")
         return profile
 
-def artist_image_list(artist: dict):
+def artist_image_list(artist: dict | None):
     """Returns a list of all images available for the artist."""
-
+    if not artist:
+        return None
     if "images" not in artist:
         return "No images available"
     else:
