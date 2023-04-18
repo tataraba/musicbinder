@@ -28,7 +28,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-You can build a beautiful web application using nothing more than Python, htmx, and TailwindCSS. Create dynamic pages using the power of Jinja templates and server-side rendering to create a HyperText driven application.
+You can build a beautiful web application using nothing more than Python, htmx, and TailwindCSS. Create dynamic pages using the power of Jinja templates and server-side rendering to create a Hypertext driven application.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -58,18 +58,21 @@ tinydb
 
 There are two methods to get started. The first and recommended method is using Codespaces. The second, more traditional route is to clone/copy the repo and install locally.
 
-First, look for this button above:
+Either way, make sure you are in the `main` branch and locate this button above:
 
 ![help](https://raw.githubusercontent.com/tataraba/musicbinder/main/app/static/img/gh/use-this-template.png)
 
 #### Codespaces:
 
-Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a virtual environment.
+Press the `Use this template` button above and select `Open in a codespace`. This will open a new window in your browser, where you can run the code in a dedicated, containerized environment in the cloud.
+
+> **Tip:**
+> If you don't know what that means, don't worry! It just means that you can run this codebase without having to install anything on your computer, all through your browser!
 
 The first time you open the Codespace, the build might take a couple of minutes, but this only happens the first time.
 
 > **Note**
-> You can alternatively start up a Codespace by clicking on the `<> Code` button next to the `Use this template` button. This gives you access to git history, and you can also switch to the branch showcasing some advanced features.
+> You can alternatively start up a Codespace by clicking on the `<> Code` button next to the `Use this template` button. This gives you access to git history, as well as giving you the option to copy all branches to your Codespace.
 
 #### Locally
 
