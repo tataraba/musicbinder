@@ -3048,48 +3048,6 @@
                 "https://en.wikipedia.org/wiki/The_Mountain_Goats"
             ]
         },
-        "62": {
-            "data_quality": "Correct",
-            "id": 999999,
-            "images": [
-                {
-                    "height": 800,
-                    "resource_url": "/static/img/RYD.jpg",
-                    "type": "primary",
-                    "uri": "/static/img/RYD.jpg",
-                    "uri150": "/static/img/RYD.jpg",
-                    "width": 600
-                }
-            ],
-            "name": "Remember Your Dead",
-            "namevariations": [
-                "RememberYourDead",
-                "RYD",
-                "Remember, You're Dead"
-            ],
-            "members": [
-                {
-                    "active": true,
-                    "id": 9999999,
-                    "name": "Mario Munoz",
-                    "resource_url": "https://www.pythonbynight.com"
-                },
-                {
-                    "active": true,
-                    "id": 9999999,
-                    "name": "Richard Sanchez",
-                    "resource_url": "https://www.pythonbynight.com"
-                }
-            ],
-            "profile": "Remember Your Dead started as an impromptu collaboration of scratch recordings between Mario Munoz and Richard Sanchez when both living in or around Silver Spring, Maryland. After both relocating to the West Coast (Mario - Southern California / Richard - Seattle, Washington), they collaborated once more and released their Vigilia EP in 2012. Since then, they both fiddle with Python from time to time. Mario occasionally presents talks and tutorials at several Python-related conventions.",
-            "releases_url": "https://api.discogs.com/artists/99999999/releases",
-            "resource_url": "https://api.discogs.com/artists/99999999",
-            "uri": "https://open.spotify.com/album/5CS76j84rAUwNFSuAr3yPf?si=M290i1VaRCeDPvBZp317hA",
-            "urls": [
-                "https://open.spotify.com/artist/19vwyTuRRWBWEMUAiNwRrS?si=iOrPzo8qSdWQzQmFhgCmVg",
-                "https://en.wikipedia.org/wiki/Elephant"
-            ]
-        },
         "32": {
             "data_quality": "Needs Vote",
             "id": 502785,
@@ -7436,6 +7394,127 @@
                 "http://www.arts-crafts.ca/bss/"
             ]
         },
+        "62": {
+            "data_quality": "Correct",
+            "id": 999999,
+            "images": [
+                {
+                    "height": 800,
+                    "resource_url": "/static/img/RYD.jpg",
+                    "type": "primary",
+                    "uri": "/static/img/RYD.jpg",
+                    "uri150": "/static/img/RYD.jpg",
+                    "width": 600
+                }
+            ],
+            "members": [
+                {
+                    "active": true,
+                    "id": 9999999,
+                    "name": "Mario Munoz",
+                    "resource_url": "https://www.pythonbynight.com"
+                },
+                {
+                    "active": true,
+                    "id": 9999999,
+                    "name": "Richard Sanchez",
+                    "resource_url": "https://www.pythonbynight.com"
+                }
+            ],
+            "name": "Remember Your Dead",
+            "namevariations": [
+                "RememberYourDead",
+                "RYD",
+                "Remember, You're Dead"
+            ],
+            "profile": "Remember Your Dead started as an impromptu collaboration of scratch recordings between Mario Munoz and Richard Sanchez when both living in or around Silver Spring, Maryland. After both relocating to the West Coast (Mario - Southern California / Richard - Seattle, Washington), they collaborated once more and released their Vigilia EP in 2012. Since then, they both fiddle with Python from time to time. Mario occasionally presents talks and tutorials at several Python-related conventions.",
+            "releases_url": "https://api.discogs.com/artists/99999999/releases",
+            "resource_url": "https://api.discogs.com/artists/99999999",
+            "uri": "https://open.spotify.com/album/5CS76j84rAUwNFSuAr3yPf?si=M290i1VaRCeDPvBZp317hA",
+            "urls": [
+                "https://open.spotify.com/artist/19vwyTuRRWBWEMUAiNwRrS?si=iOrPzo8qSdWQzQmFhgCmVg",
+                "https://en.wikipedia.org/wiki/Elephant"
+            ]
+        },
+        "63": {
+            "data_quality": "Needs Minor Changes",
+            "id": 4450915,
+            "images": [
+                {
+                    "height": 399,
+                    "resource_url": "https://i.discogs.com/MGNZdYujR_kmHM-_FpC7Q04268r-8NG9vJ6rBnWvkZE/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ0NTA5/MTUtMTUwNDQzODEz/Mi01MDIzLmpwZWc.jpeg",
+                    "type": "primary",
+                    "uri": "https://i.discogs.com/MGNZdYujR_kmHM-_FpC7Q04268r-8NG9vJ6rBnWvkZE/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ0NTA5/MTUtMTUwNDQzODEz/Mi01MDIzLmpwZWc.jpeg",
+                    "uri150": "https://i.discogs.com/Nfp53OdLWkOkA5wuWY9_kXemojq5D7ouMxeElUCjJhs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ0NTA5/MTUtMTUwNDQzODEz/Mi01MDIzLmpwZWc.jpeg",
+                    "width": 600
+                }
+            ],
+            "members": [
+                {
+                    "active": true,
+                    "id": 881955,
+                    "name": "Tom Hobden",
+                    "resource_url": "https://api.discogs.com/artists/881955",
+                    "thumbnail_url": "https://i.discogs.com/UEcvyD1jcMQtq2AYBVFVKgkj4sHynDJE00EXMc7rtME/rs:fit/g:sm/q:40/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg4MTk1/NS0xMjkzODA0ODc5/LmpwZWc.jpeg"
+                },
+                {
+                    "active": false,
+                    "id": 1809524,
+                    "name": "Sam O'Donnell",
+                    "resource_url": "https://api.discogs.com/artists/1809524",
+                    "thumbnail_url": ""
+                },
+                {
+                    "active": true,
+                    "id": 5178762,
+                    "name": "David Le'Aupepe",
+                    "resource_url": "https://api.discogs.com/artists/5178762",
+                    "thumbnail_url": "https://i.discogs.com/9EyYnaR9SVWo7XdY9x5giM2BgJCMeY2o0kJC9bJmT0k/rs:fit/g:sm/q:40/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUxNzg3/NjItMTQ2OTkyNzk2/Ny03NzY1LmpwZWc.jpeg"
+                },
+                {
+                    "active": true,
+                    "id": 6364936,
+                    "name": "Dom Borzestowski",
+                    "resource_url": "https://api.discogs.com/artists/6364936",
+                    "thumbnail_url": ""
+                },
+                {
+                    "active": false,
+                    "id": 6364939,
+                    "name": "Joji Malani",
+                    "resource_url": "https://api.discogs.com/artists/6364939",
+                    "thumbnail_url": ""
+                },
+                {
+                    "active": true,
+                    "id": 7073574,
+                    "name": "Max Dunn (2)",
+                    "resource_url": "https://api.discogs.com/artists/7073574",
+                    "thumbnail_url": ""
+                },
+                {
+                    "active": true,
+                    "id": 7073575,
+                    "name": "Jung Kim (2)",
+                    "resource_url": "https://api.discogs.com/artists/7073575",
+                    "thumbnail_url": ""
+                }
+            ],
+            "name": "Gang of Youths",
+            "namevariations": [
+                "Gang Of Youths",
+                "Gang OfYouths"
+            ],
+            "profile": "Australian indie rock group formed in Sydney in 2012. Their debut album, The Positions, peaked at No. 5 on the ARIA Albums Chart in May 2015 and was nominated for multiple ARIA Awards.",
+            "releases_url": "https://api.discogs.com/artists/4450915/releases",
+            "resource_url": "https://api.discogs.com/artists/4450915",
+            "uri": "https://www.discogs.com/artist/4450915-Gang-of-Youths",
+            "urls": [
+                "http://www.gangofyouths.com/",
+                "https://www.facebook.com/GangOfYouths/",
+                "https://de.wikipedia.org/wiki/Gang_of_Youths"
+            ]
+        },
         "7": {
             "data_quality": "Correct",
             "id": 976985,
@@ -8606,6 +8685,38 @@
                 "in_wantlist": false
             }
         },
+        "62": {
+            "cover_image": "/static/img/RYD.jpg",
+            "id": 41441,
+            "master_id": null,
+            "master_url": null,
+            "name": "Remember Your Dead",
+            "resource_url": "/static/img/RYD.jpg",
+            "thumb": "https://i.discogs.com/cZuTh79PbkbJ1ZmwilSfNWuYnQaSqfB1_cV4gor_5-o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQxNDQx/LTE2NzQxMDA5MDgt/NTQ2MC5qcGVn.jpeg",
+            "title": "Remember Your Dead",
+            "type": "artist",
+            "uri": "/artist/999999-Remember-Your-Dead",
+            "user_data": {
+                "in_collection": false,
+                "in_wantlist": false
+            }
+        },
+        "63": {
+            "cover_image": "https://i.discogs.com/MGNZdYujR_kmHM-_FpC7Q04268r-8NG9vJ6rBnWvkZE/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ0NTA5/MTUtMTUwNDQzODEz/Mi01MDIzLmpwZWc.jpeg",
+            "id": 4450915,
+            "master_id": null,
+            "master_url": null,
+            "name": "Gang of Youths",
+            "resource_url": "https://api.discogs.com/artists/4450915",
+            "thumb": "https://i.discogs.com/Nfp53OdLWkOkA5wuWY9_kXemojq5D7ouMxeElUCjJhs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ0NTA5/MTUtMTUwNDQzODEz/Mi01MDIzLmpwZWc.jpeg",
+            "title": "Gang of Youths",
+            "type": "artist",
+            "uri": "/artist/4450915-Gang-of-Youths",
+            "user_data": {
+                "in_collection": false,
+                "in_wantlist": false
+            }
+        },
         "7": {
             "cover_image": "https://i.discogs.com/mXy5VCH7vfETEiVVrn4Slw_wKARXL7zYBcvEzQWwb7k/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUyMzEy/My0xNTcwMTc4NjE4/LTE2MTQuanBlZw.jpeg",
             "id": 523123,
@@ -8649,22 +8760,6 @@
             "title": "Broken Social Scene",
             "type": "artist",
             "uri": "/artist/138844-Broken-Social-Scene",
-            "user_data": {
-                "in_collection": false,
-                "in_wantlist": false
-            }
-        },
-        "62": {
-            "cover_image": "/static/img/RYD.jpg",
-            "id": 41441,
-            "master_id": null,
-            "master_url": null,
-            "name": "Remember Your Dead",
-            "resource_url": "/static/img/RYD.jpg",
-            "thumb": "https://i.discogs.com/cZuTh79PbkbJ1ZmwilSfNWuYnQaSqfB1_cV4gor_5-o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQxNDQx/LTE2NzQxMDA5MDgt/NTQ2MC5qcGVn.jpeg",
-            "title": "Remember Your Dead",
-            "type": "artist",
-            "uri": "/artist/999999-Remember-Your-Dead",
             "user_data": {
                 "in_collection": false,
                 "in_wantlist": false
