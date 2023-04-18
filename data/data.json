@@ -8653,6 +8653,22 @@
                 "in_collection": false,
                 "in_wantlist": false
             }
+        },
+        "62": {
+            "cover_image": "/static/img/RYD.jpg",
+            "id": 41441,
+            "master_id": null,
+            "master_url": null,
+            "name": "Remember Your Dead",
+            "resource_url": "/static/img/RYD.jpg",
+            "thumb": "https://i.discogs.com/cZuTh79PbkbJ1ZmwilSfNWuYnQaSqfB1_cV4gor_5-o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQxNDQx/LTE2NzQxMDA5MDgt/NTQ2MC5qcGVn.jpeg",
+            "title": "Remember Your Dead",
+            "type": "artist",
+            "uri": "/artist/999999-Remember-Your-Dead",
+            "user_data": {
+                "in_collection": false,
+                "in_wantlist": false
+            }
         }
     }
 }
