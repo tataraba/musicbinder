@@ -32,9 +32,9 @@ You can build a beautiful web application using nothing more than Python, htmx, 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-This repository was prepared for a PyCon tutorial on how to create a python-backed frontend, featuring Jinja templates for HTML rendering, TailwindCSS for style, and htmx for pizzazz! 😎
+This repository was prepared for a [PyCon tutorial](https://youtu.be/YUoflPpVLjQ) on how to create a python-backed frontend, featuring Jinja templates for HTML rendering, TailwindCSS for style, and htmx for pizzazz! 😎
 
-The [tutorial](https://us.pycon.org/2023/schedule/presentation/151/) is scheduled for Wednesday, April 19th, 2023 from 9 - 12:30pm (Mountain Time).
+The [tutorial](https://us.pycon.org/2023/schedule/presentation/151/) was conducted on Wednesday, April 19th, 2023 from 9 - 12:30pm (Mountain Time).
 
 
 ### Prerequisites
