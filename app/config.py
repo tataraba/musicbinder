@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi.responses import HTMLResponse
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 APP_DIR = Path(__file__).resolve().parent
 
@@ -14,14 +14,14 @@ class Settings(BaseSettings):
     TEMPLATE_DIR: Path = APP_DIR / "templates"
     DATA_DIR: Path = APP_DIR.parent / "data"
 
-    FASTAPI_PROPERTIES = {
+    FASTAPI_PROPERTIES: dict = {
         "title": "Music Binder",
         "description": "A demo site built with FastaPI, htmx, and tailwind",
         "version": "0.0.1",
         "default_response_class": HTMLResponse,  # Change default from JSONResponse
     }
 
-    DISABLE_DOCS = True
+    DISABLE_DOCS: bool = True
 
     @property
     def fastapi_kwargs(self) -> dict[str, Any]:
