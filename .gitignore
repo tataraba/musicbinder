@@ -208,7 +208,7 @@ poetry.toml
 pyrightconfig.json
 
 ### VisualStudioCode ###
-# .vscode/*
+.vscode/*
 # !.vscode/settings.json
 # !.vscode/tasks.json
 # !.vscode/launch.json
@@ -217,7 +217,7 @@ pyrightconfig.json
 
 # Local History for Visual Studio Code
 .history/
-
+ 
 # Built Visual Studio Code Extensions
 *.vsix
 
